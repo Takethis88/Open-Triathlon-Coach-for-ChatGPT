@@ -56,7 +56,7 @@ Token exchange method:
 
 Privacy-policy URL:
 
-`https://takethis88.github.io/intervals-icu-triathlon-gpt-coach/privacy.html`
+`https://takethis88.github.io/Open-Triathlon-Coach-for-ChatGPT/privacy.html`
 
 The ChatGPT editor supplies the OAuth callback URL. Register that exact callback
 with Intervals.icu. The current project callback must be checked in the editor

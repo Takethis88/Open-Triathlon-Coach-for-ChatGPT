@@ -61,7 +61,7 @@ Intervals.icu because the Action exposes no delete operation.
 
 ## F. Privacy and platform behaviour
 
-- [ ] **F1 Privacy URL:** `https://takethis88.github.io/intervals-icu-triathlon-gpt-coach/privacy.html` loads publicly.
+- [ ] **F1 Privacy URL:** `https://takethis88.github.io/Open-Triathlon-Coach-for-ChatGPT/privacy.html` loads publicly.
 - [ ] **F2 Builder setting disclosure:** Documentation states that the GPT-level model-improvement setting is disabled.
 - [ ] **F3 No absolute promise:** Documentation does not claim that the builder setting alone prevents all OpenAI processing or training.
 - [ ] **F4 Builder access:** Documentation accurately states that GPT builders cannot view individual conversations through the builder.

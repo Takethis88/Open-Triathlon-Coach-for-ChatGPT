@@ -6,9 +6,9 @@
 
 **An independent, open-source triathlon coach for ChatGPT that analyses your authorised Intervals.icu activities, wellness, thresholds, and calendar data. Not affiliated with or endorsed by Intervals.icu.**
 
-[Project website](https://takethis88.github.io/intervals-icu-triathlon-gpt-coach/) ·
-[Privacy policy](https://takethis88.github.io/intervals-icu-triathlon-gpt-coach/privacy.html) ·
-[Report an issue](https://github.com/Takethis88/intervals-icu-triathlon-gpt-coach/issues)
+[Project website](https://takethis88.github.io/Open-Triathlon-Coach-for-ChatGPT/) ·
+[Privacy policy](https://takethis88.github.io/Open-Triathlon-Coach-for-ChatGPT/privacy.html) ·
+[Report an issue](https://github.com/Takethis88/Open-Triathlon-Coach-for-ChatGPT/issues)
 
 </div>
 
@@ -204,7 +204,7 @@ You can stop using the GPT at any time. To revoke its Intervals.icu access, use 
 - Relevant parts of a request and authorised account data may be exchanged with Intervals.icu when the Action reads or changes information.
 - The project does not operate a separate database, OAuth proxy, or API server for athlete data.
 
-Review the [privacy policy](https://takethis88.github.io/intervals-icu-triathlon-gpt-coach/privacy.html) before connecting the account.
+Review the [privacy policy](https://takethis88.github.io/Open-Triathlon-Coach-for-ChatGPT/privacy.html) before connecting the account.
 
 
 ## The coach depends on good source data

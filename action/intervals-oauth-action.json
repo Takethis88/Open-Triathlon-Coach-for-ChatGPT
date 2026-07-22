@@ -7,9 +7,9 @@
     "contact": {
       "name": "Open Triathlon Coach for ChatGPT project",
       "email": "triathlon-gpt-intervals-icu@proton.me",
-      "url": "https://github.com/Takethis88/intervals-icu-triathlon-gpt-coach"
+      "url": "https://github.com/Takethis88/Open-Triathlon-Coach-for-ChatGPT"
     },
-    "termsOfService": "https://github.com/Takethis88/intervals-icu-triathlon-gpt-coach/blob/main/POLICY_BASELINE.md"
+    "termsOfService": "https://github.com/Takethis88/Open-Triathlon-Coach-for-ChatGPT/blob/main/POLICY_BASELINE.md"
   },
   "servers": [
     {
@@ -1064,6 +1064,6 @@
   },
   "externalDocs": {
     "description": "Project privacy policy",
-    "url": "https://takethis88.github.io/intervals-icu-triathlon-gpt-coach/privacy.html"
+    "url": "https://takethis88.github.io/Open-Triathlon-Coach-for-ChatGPT/privacy.html"
   }
 }
