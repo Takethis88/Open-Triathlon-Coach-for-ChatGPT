@@ -99,7 +99,7 @@ Direct, complete activity files are generally more useful than summary-only reco
 
 ### Step 2 — Open the coach in ChatGPT
 
-Open **Open Triathlon Coach for ChatGPT** from its ChatGPT listing. The public link will be added here when v1.0 is released.
+Open **Open Triathlon Coach for ChatGPT** from its ChatGPT listing. Here's the link https://chatgpt.com/g/g-6a5e0bb5eb54819197b4553901817490-open-triathlon-coach.
 
 For complex training analysis, select the **highest reasoning level that still supports the GPT's custom Action**. At this policy baseline, OpenAI states that custom Actions are unavailable in **Pro mode**. Use **Extra High** when it is offered with the Action; otherwise use **High**, **Medium**, or the highest Action-compatible option shown for your account.
 
