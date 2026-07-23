@@ -1,8 +1,8 @@
 # Policy baseline
 
-**Project:** Open Triathlon Coach for ChatGPT  
-**Policy version:** 1.0.0  
-**Reviewed:** 21 July 2026  
+**Project:** Open Triathlon Coach for ChatGPT
+**Policy version:** 1.0.0
+**Reviewed:** 21 July 2026
 **Action schema version:** 2.2.0
 
 This file records the public product, privacy, authentication, safety, and
@@ -49,6 +49,27 @@ The release follows these current requirements and limitations:
   training by default under OpenAI's current guidance.
 - GPT builders cannot view individual user conversations through the GPT builder.
 - Relevant parts of a request may be sent to the third-party Action service.
+
+## ChatGPT plan and Action compatibility
+
+The GPT itself and its custom Action are treated as separate capabilities.
+
+Current project validation as of 23 July 2026:
+
+- Plus has passed OAuth, authenticated read and controlled calendar-write tests.
+- A signed-in Free account could open the GPT, but the Intervals.icu Action was
+  unavailable in that test, so OAuth could not start.
+- Go has not yet been tested.
+- Pro mode cannot use custom Actions under OpenAI's current documentation.
+- Business, Enterprise and Edu workspaces may restrict Action domains.
+
+These observations must be described as project test results, not universal
+claims about all accounts. Documentation must direct users to
+`COMPATIBILITY.md` and must not promise Action availability on an untested plan
+or workspace.
+
+When the Action is unavailable, the coach must fail safely and must never ask
+for an athlete ID, API key, password or token as an alternative to OAuth.
 
 ## Intervals.icu API baseline
 

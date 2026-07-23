@@ -1,5 +1,16 @@
 # Changelog
 
+## Unreleased
+
+### Changed
+
+- Added a ChatGPT plan and custom-Action compatibility matrix.
+- Documented successful end-to-end validation on Plus.
+- Documented that a tested Free account could open the GPT but did not expose the Intervals.icu Action.
+- Marked Go and managed-workspace compatibility as unverified.
+- Added a safe Action-unavailable fallback that never asks for an athlete ID or API key.
+- Incremented the production instruction revision to `1.0.3`.
+
 ## 0.9.0-rc1 — 2026-07-21
 
 Release candidate for production OAuth and public repository upload.

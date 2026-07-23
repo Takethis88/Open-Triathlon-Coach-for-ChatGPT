@@ -1,7 +1,7 @@
 # GPT builder and OAuth setup
 
-**Project:** Open Triathlon Coach for ChatGPT  
-**Policy baseline:** 1.0.0  
+**Project:** Open Triathlon Coach for ChatGPT
+**Policy baseline:** 1.0.0
 **Reviewed:** 21 July 2026
 
 This file is for the project maintainer. End users should follow the setup in
@@ -78,6 +78,21 @@ or a conversation.
   in Pro mode.
 - Ensure the GPT uses Actions rather than Apps; OpenAI currently states that a GPT
   can use either Apps or Actions, not both at the same time.
+
+## Public compatibility disclosure
+
+Before a public release or documentation update:
+
+- state that the Intervals.icu Action is validated on Plus;
+- state that a tested Free account could open the GPT but did not expose the
+  Action, so OAuth could not start;
+- mark Go and managed-workspace compatibility as unverified until tested;
+- distinguish Pro subscription access from Pro mode, which cannot use custom
+  Actions under current OpenAI documentation;
+- never claim that an athlete ID or API key is a fallback connection method;
+- retest plan compatibility after material ChatGPT product changes.
+
+See `COMPATIBILITY.md`.
 
 ## 4. Knowledge files
 

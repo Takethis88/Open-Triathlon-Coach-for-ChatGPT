@@ -14,7 +14,7 @@
 
 > **Documentation and policy baseline:** `1.0.0` — reviewed 21 July 2026. See [POLICY_BASELINE.md](POLICY_BASELINE.md).
 
-> **Project status:** pre-release. The core coaching workflow is being tested with a private development connection. Public per-user OAuth access is being prepared for the first working v1.0 release.
+> **Project status:** public beta. Intervals.icu OAuth is live and has been validated on ChatGPT Plus. Plan and session compatibility are documented below.
 
 ## What is this?
 
@@ -36,15 +36,41 @@ The aim is not to generate isolated workouts. It is to create a continuous coach
 
 
 
+## ChatGPT plan and Action compatibility
+
+Opening the GPT and using its Intervals.icu OAuth Action are separate
+capabilities.
+
+The current project validation is:
+
+- **Plus:** validated end to end, including OAuth, authenticated reads and a
+  controlled calendar write.
+- **Free:** the GPT opened normally, but the Intervals.icu Action was unavailable
+  in the tested account, so OAuth could not start.
+- **Go:** not yet tested.
+- **Pro subscription:** not yet tested end to end. The coach must use a
+  non-Pro, Action-compatible mode because OpenAI states that custom Actions are
+  unavailable in Pro mode.
+- **Business, Enterprise and Edu:** not yet tested; workspace Action-domain rules
+  may affect availability.
+
+This is a report of current testing, not a claim that every account on a given
+plan behaves identically. See [COMPATIBILITY.md](COMPATIBILITY.md) for the full
+support matrix and official OpenAI references.
+
+When the Action is unavailable, the coach must fail safely: it must not ask for
+an athlete ID or API key, imply that either can replace OAuth, or simulate a live
+athlete overview.
+
 ## How to start using the coach
 
-> **Pre-release note:** these are the intended end-user steps for v1.0. Until the public OAuth application and ChatGPT listing are live, the coach is not yet available for general use.
+> **Public-beta note:** the live Intervals.icu connection requires a ChatGPT session in which custom GPT Actions are available.
 
 You do not need to install software, run code, create an API key, or give the coach your Intervals.icu password. The public version will run inside ChatGPT and connect to each athlete's own Intervals.icu account through OAuth.
 
 ### What you need
 
-- A ChatGPT account that can open the published GPT and use its Action.
+- A signed-in ChatGPT account and session in which custom GPT Actions are available. The live connection is validated on Plus; Free could open the GPT but did not expose the Action in our test; Go is not yet tested.
 - An Intervals.icu account.
 - Recent activities synced into Intervals.icu from Garmin, Zwift, Wahoo, COROS, Polar, Suunto, Strava, manual uploads, or another supported source.
 - Correct sport settings in Intervals.icu, especially cycling FTP, run and swim threshold pace, LTHR, maximum heart rate, and training zones.
